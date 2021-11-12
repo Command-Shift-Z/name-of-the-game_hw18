@@ -110,6 +110,24 @@ footer li {
     padding: 50px;
 }
 
+.circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: -55px;
+}
+
+.circle h2 {
+    text-align: center;
+    color: #3a0ca3; 
+    font-family: 'Francois One', sans-serif;
+}
 .card {
     margin: 12px;
     padding: 24px;
