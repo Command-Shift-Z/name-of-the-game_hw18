@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+nav {
+    background: #f72585;
+    width: 100%;
+    padding: 1%;
+    
+}
+
+nav a {
+    font-family: 'Francois One', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 20px;
+    
+}
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+.inlineBlock img {
+    width: 200px;
+}
+.logo {
+    text-align: center;
+}
+
+div .logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+
+ul {
+    width: 45%;
+    margin-left: auto;
+}
+
+.heroimg {
+    height: 600px;
+    padding: 50px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content img {
+    width: 400px;
+
+}
+
+.content button {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Francois One', sans-serif;
+    color: honeydew;
+    background-color: rgba(76, 0, 130);
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+p {
+    text-align: center;
+    color:rgba(76, 0, 130);
+    font-size: 24px;
+    font-family: 'Francois One', sans-serif;
+}
+
+footer {
+    background-color: #373738;
+    padding: 25px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer li {
+    padding: 0 20px;
+    color: honeydew;
+    font-family: 'Francois One', sans-serif;
+    
+}
+
+.pagesection {
+    height: 150px;
+    background-color: #3a0ca3;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.pagesection h1 {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+}
+
+.top10flex {
+    display: flex;
+    grid-template-columns: 33% 33% 33%;
+    padding: 50px;
+}
+
+.card {
+    margin: 12px;
+    padding: 24px;
+    text-align: center;
+    background-color: #b7e9f9;
+}
+
+.card p {
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    color: #4361ee;
+}
