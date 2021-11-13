@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background: #f72585;
+}
 
 nav {
-    background: #f72585;
-    width: 100%;
+    width: 45%;
     padding: 1%;
-    
 }
 
 nav a {
@@ -18,23 +22,17 @@ nav a {
     display: inline-block;
     vertical-align: top;
 }
-.inlineBlock img {
-    width: 200px;
-}
+
+
 .logo {
-    text-align: center;
-}
-
-div .logo {
+    text-align: left;
     width: 23%;
-    padding: 1%;
-    text-align: center;
+    padding: 24px 40px;
 }
-
 
 ul {
-    width: 45%;
     margin-left: auto;
+    text-align: right;
 }
 
 .heroimg {
@@ -90,9 +88,10 @@ footer li {
 }
 
 .pagesection {
-    height: 150px;
+    height: 200px;
     background-color: #3a0ca3;
     display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
 }
@@ -134,9 +133,14 @@ footer li {
     text-align: center;
     background-color: #b7e9f9;
 }
-
+.card img {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    margin-top: 16px;
+}
 .card p {
     font-family: 'Francois One', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #4361ee;
 }
