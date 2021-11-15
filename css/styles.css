@@ -6,9 +6,11 @@ header {
     background: #f72585;
 }
 
+/* Navigation */
 nav {
     width: 45%;
-    padding: 1%;
+    padding: 20px;
+    margin-left: auto;
 }
 
 nav a {
@@ -35,6 +37,7 @@ ul {
     text-align: right;
 }
 
+/* Hero Section */
 .heroimg {
     height: 600px;
     padding: 50px;
@@ -87,8 +90,19 @@ footer li {
     
 }
 
+/* Pages Header*/
 .pagesection {
-    background-color: #3a0ca3;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a0ca3+0,4811d6+75,4cc9f0+100 */
+    background: #3a0ca3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3a0ca3 0%, #4811d6 75%, #4cc9f0 100%); /* FF3.6-15 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a0ca3), color-stop(75%,#4811d6), color-stop(100%,#4cc9f0)); /* Chrome4-9,Safari4-5 */
+    background: -webkit-linear-gradient(top,  #3a0ca3 0%,#4811d6 75%,#4cc9f0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: -o-linear-gradient(top,  #3a0ca3 0%,#4811d6 75%,#4cc9f0 100%); /* Opera 11.10-11.50 */
+    background: -ms-linear-gradient(top,  #3a0ca3 0%,#4811d6 75%,#4cc9f0 100%); /* IE10 preview */
+    background: linear-gradient(to bottom,  #3a0ca3 0%,#4811d6 75%,#4cc9f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a0ca3', endColorstr='#4cc9f0',GradientType=0 ); /* IE6-9 */
+
+
     display: flex;
     flex-direction: row;
     align-content: center;
