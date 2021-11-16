@@ -18,9 +18,10 @@ nav a {
     font-family: ropa-soft-pro,sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 18px;
     color: #FFF;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 24px;
     
 }
 .inlineBlock {
@@ -79,25 +80,7 @@ p {
     font-style: normal;
 }
 
-footer {
-    background-color: #373738;
-    padding: 25px;
-}
 
-footer ul {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-}
-
-footer li {
-    padding: 0 20px;
-    color: honeydew;
-    font-family: ropa-soft-pro,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    
-}
 
 /* Pages Header*/
 .pagesection {
@@ -128,6 +111,7 @@ footer li {
 
 .top10flex {
     display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 33% 33% 33%;
     justify-content: center;
     align-content: center;
@@ -138,9 +122,9 @@ footer li {
 .circle {
     width: 65px;
     height: 65px;
-    border: solid #4361ee 3px;
+    border: solid #dbf4fc 5px;
     border-radius: 50%;
-    background-color: #FFF;
+    background-color: #b4c0f8;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -150,14 +134,16 @@ footer li {
 
 .circle h2 {
     text-align: center;
-    color: #4361ee; 
+    color: #3a0ca3; 
     font-family: ropa-soft-pro,sans-serif;
     font-weight: 700;
     font-style: normal;
+    
 }
 .card {
-    margin: 12px;
+    margin: 36px 12px;
     padding: 24px;
+    width: 400px;
     text-align: center;
     background-color: #FFF;
     border-radius: 8px;
@@ -170,7 +156,7 @@ footer li {
     background-color: white;
     margin-top: 16px;   
 }
-.card h2 {
+.gameName {
     font-family: ropa-soft-pro,sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -216,4 +202,29 @@ footer li {
     border-radius: 25px;
     border: none;
     margin: 16px 4px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #373738;
+    padding: 25px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer li {
+    padding: 0 24px;
+    color: honeydew;
+    font-family: ropa-soft-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    
 }
