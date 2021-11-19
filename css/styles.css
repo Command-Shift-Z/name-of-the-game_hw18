@@ -112,6 +112,7 @@ p {
     font-style: normal;
 }
 
+/*Top 10 Page*/
 .top10flex {
     display: flex;
     flex-wrap: wrap;
@@ -207,6 +208,101 @@ p {
     margin: 16px 4px;
 }
 
+/*Game Type Page*/
+#gameTypeGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  400px 400px 400px;
+    grid-template-areas: 
+    "roll-move roll-move dice-board"
+    "secret-identity combat legacy"
+    "cooperative party party"
+    ;
+}
+
+.gameType-box {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 18px 12px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.type-content {
+    background-color:rgba(58, 12, 163, .9);
+    border-radius: 8px;
+    padding: 32px 48px;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.type-content h2 {
+    color: white;
+    font-family: ropa-soft-pro,sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+
+.gameType-box img {
+    width: auto;
+}
+
+#roll-move {
+    grid-area: roll-move;
+    background-image: url("../images/roll-move.png");
+}
+
+#dice-board {
+    grid-area: dice-board;
+    background-image: url("../images/dice-board.png");
+}
+
+
+#cooperative {
+    grid-area: cooperative;
+    background-image: url("../images/cooperative.png");
+}
+
+#secret-identity {
+    grid-area: secret-identity;
+    background-image: url("../images/secret_identity.png");
+}
+
+#party {
+    grid-area: party;
+    background-image: url("../images/party.png") ;
+}
+
+#legacy {
+    grid-area: legacy;
+    background-image: url("../images/legacy.png");
+}
+
+#combat {
+    grid-area: combat;
+    background-image: url("../images/combat.png");
+}
+
+.featuredList {
+    background-color: #4cc9f0;
+    color: #FFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 25px;
+    border: none;
+    margin: 16px 4px;
+}
+
 /*Footer*/
 footer {
     display: flex;
@@ -233,10 +329,38 @@ footer li {
     
 }
 
+/*Media Queries*/
+
+@media only screen and (max-width: 1200px) {
+    .type-content {
+        padding: 24px 32px; 
+    }
+
+    .type-content h2 {
+        font-size: 28px;
+    }
+
+    .featuredList {
+        font-size: 14px;
+        padding: 12px 28px;
+        margin: 16px 4px;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .logo img {
         height: auto;
         padding: 16px 24px;
+    }
+    #gameTypeGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows:  350px 350px 350px 350px;
+        grid-template-areas: 
+        "roll-move dice-board"
+        "secret-identity combat"
+        "legacy cooperative"
+        "party party"
+        ;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -273,6 +397,21 @@ footer li {
     }
 
     .bluebtn {
+        
         margin: 8px;
+    }
+    #gameTypeGrid {
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows:  350px 350px 350px 350px;
+        grid-template-areas: 
+        "roll-move"
+        "dice-board"
+        "secret-identity" 
+        "combat"
+        "legacy" 
+        "cooperative"
+        "party"
+        ;
     }
   }
